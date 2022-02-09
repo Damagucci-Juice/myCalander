@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B5B9DFA927B38CFB00012E31 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9DFA827B38CFB00012E31 /* main.swift */; };
+		B5B9DFB027B38F6300012E31 /* MyCalander.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9DFAF27B38F6300012E31 /* MyCalander.swift */; };
+		B5B9DFB227B38FE000012E31 /* MyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9DFB127B38FE000012E31 /* MyDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B5B9DFA527B38CFB00012E31 /* myCalander */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myCalander; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B9DFA827B38CFB00012E31 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B5B9DFAF27B38F6300012E31 /* MyCalander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalander.swift; sourceTree = "<group>"; };
+		B5B9DFB127B38FE000012E31 /* MyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				B5B9DFA827B38CFB00012E31 /* main.swift */,
+				B5B9DFAF27B38F6300012E31 /* MyCalander.swift */,
+				B5B9DFB127B38FE000012E31 /* MyDate.swift */,
 			);
 			path = myCalander;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B9DFB227B38FE000012E31 /* MyDate.swift in Sources */,
 				B5B9DFA927B38CFB00012E31 /* main.swift in Sources */,
+				B5B9DFB027B38F6300012E31 /* MyCalander.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
